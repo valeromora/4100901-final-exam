@@ -149,7 +149,7 @@ int main(void)
   ssd1306_SetCursor(20, 20);
   ssd1306_WriteString("Waiting", Font_16x26, White);
   ssd1306_UpdateScreen();
-//  keypad_init(); // Initialize the keypad functionality
+  //
   /* USER CODE END 2 */
 
   /* Infinite loop */

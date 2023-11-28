@@ -577,7 +577,7 @@ int main(void)
  8000658:	f004 fa66 	bl	8004b28 <ssd1306_WriteString>
   ssd1306_UpdateScreen();
  800065c:	f004 f960 	bl	8004920 <ssd1306_UpdateScreen>
-//  keypad_init(); // Initialize the keypad functionality
+  //
   /* USER CODE END 2 */
 
   /* Infinite loop */
